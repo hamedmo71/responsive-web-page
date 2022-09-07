@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .greenDiv{
+            background-color: green;
+            width: 40%;
+            height: 150px;
+            border: 1px solid black;
+            overflow: auto;
+        }
+
+        .blankDiv{
+            height: 150px;
+        }
+
+        .hoverDiv{
+            background-color: red;
+            width: 40%;
+            height: 150px;
+            border: 1px solid black;
+            color: white;
+        }
+
+        .demo{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<div class="greenDiv">
+    <span  class="demo">Click here and watch the text change!</span>
+</div>
+
+<div class="blankDiv"></div>
+
+<div class="hoverDiv">
+    <span >hover over me!</span>
+</div>
+
+<div class="blankDiv"></div>
+
+<p id="stringCounter"></p>
+<p id="numberCounter"></p>
+<p id="booleanCounter"></p>
+<p id="arrayCounter"></p>
+
+
+
+    <script src="./jquery-3.6.1.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
